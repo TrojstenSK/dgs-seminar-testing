@@ -11,6 +11,7 @@ If we need a footnote^[and we often do], we can do it like this.
 
 Pay attention to quotes: DeGeŠ processes text "automatically" and selects proper quotation marks for the language.
 
+
 #### Deeper levels
 Most DeGeŠ documents use first and second section levels for their internal structure,
 leaving third and higher levels, such as `\subsection{}` or `<h3>...</h3>` and so forth for general use.
@@ -38,10 +39,11 @@ This is where DeGeŠ comes in:
 1.  We avoid a ton of boilerplate. Just compare including a picture, see [-@sec:pictures].
 1.  We can store files in a structured way, especially if the documents have
     a firmly set structure that repeats in various issues.
-1.  We provide a huge number of custom [macros](#011103-problem) that are much easier to memorize (and also type).
+1.  We provide a huge number of custom macros (see section [-@sec:011103-problem]) that are much easier to memorize (and also type).
     They work both with \LaTeX\ and HTML, which is great.
     And if we wish to use them outside DeGeŠ, no problem.
 1.  We can avoid most typographic corrections in the text: no more manual `\,` or `\!`.
+    Seriously, if you ever find yourself using those in a document, something is very wrong.
 
 ### Unicode
 Note the fancy Greek letters

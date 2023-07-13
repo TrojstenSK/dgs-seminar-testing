@@ -25,7 +25,7 @@ $${
 }$$
 
 
-### DeGeŠ macros
+### DeGeŠ macros {#sec:011103-macros}
 Why would anyone want to type
 $$
     \int\limits_{0}^{\infty} e^{-x^2}\,\mathrm{d}x \quad\text{and}\quad \int\limits_{\partial \Omega} \vec{E}\,\mathrm{d}\Omega,
@@ -37,7 +37,7 @@ $$ {#eq:testing-int-nice}
 
 Another fine example of a shorthand is
 $$
-    \Sum[i = 0][n]{2^n a_n} = \Product[j = 0][m]{b_m^3 m^4 + 1}.
+    \Sum[i = 0][n]{2^i a_i} = \Product[j = 0][m]{b_j^3 j^4 + 1}.
 $$ {#eq:testing-agg}
 
 We can also do this with sets,
