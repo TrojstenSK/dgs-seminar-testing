@@ -73,3 +73,13 @@ $$
     \left(\frac{1}{3} - 0\right) =
     \frac{1}{3}.
 $$
+
+#### Number sets
+Just a couple of shorthands:
+$$
+    \Natural \subset \Integer \subset \Rational \subset \Real \subset \Complex \subset \Quaternions
+$$
+and we also have
+$$
+    \NaturalZero, \RealPos, \RealNeg, \RealNonneg, \RealNonpos
+$$
