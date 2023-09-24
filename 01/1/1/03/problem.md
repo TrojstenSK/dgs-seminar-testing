@@ -74,6 +74,20 @@ $$
     \frac{1}{3}.
 $$
 
+A full list follows:
+$$
+    \Int[-\infty][0]{x^3}{x} +
+    \IntD[\Omega]{\vec{x}}{\vec{S}} +
+    \IntDV[\Omega]{x}{S} +
+    \IntC[\pdiff \Omega]{\vec{j}}{\vec{\ell}} +
+    \IntCV[\pdiff \Omega]{j}{\ell}.
+$$
+
+$$
+    \IInt[\Real^2]{x^2 + y^2}{x}{y} +
+    \IIntP[\Real^2]{x^2 + y^2}{x}{y} +
+$$
+
 #### Number sets
 Just a couple of shorthands:
 $$
