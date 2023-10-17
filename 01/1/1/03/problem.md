@@ -86,6 +86,7 @@ $$
 $$
     \IInt[\Real^2]{x^2 + y^2}{x}{y} +
     \IIntP[\Real^2]{x^2 + y^2}{x}{y} +
+    1
 $$
 
 #### Number sets

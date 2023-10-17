@@ -11,11 +11,11 @@ $$
     \SI{20}{\metre\per\second} \cdot \SI{4.6}{\kilo\newton} = \SI{92}{\kilo\watt}.
 $$
 
-Occassionally we might want to use fractions with SI units.
+Occassionally we might want to use fractions or symbols with SI units.
 Parsing must be turned off then:
 $$
     \SI[parse-numbers=false]{\frac{2}{3}}{\joule\per\kilo\gram} <
-    \SI[parse-numbers=false]{\frac{5}{7}}{\mega\joule\per\tonne}.
+    \SI[parse-numbers=false]{4 \pi}{\mega\joule\per\tonne}.
 $$
 
 It is possible to change all settings globally in DeGeŠ, for an entire module,
