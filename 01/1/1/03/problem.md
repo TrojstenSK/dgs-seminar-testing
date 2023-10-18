@@ -32,7 +32,7 @@ $$
 $$ {#eq:testing-int-ugly}
 when you can type a much nicer and semantic
 $$
-    \Int[0][\infty]{e^{-x^2}}{x} \QText{and} \Int[\pdiff \Omega]{\vec{E}}{\Omega}?
+    \Int[0][\infty]{e^{-x^2}}{x} \QText{and} \Int[\pdiff\Omega]{\vec{E}}{\Omega}?
 $$ {#eq:testing-int-nice}
 
 Another fine example of a shorthand is
@@ -87,6 +87,23 @@ $$
     \IInt[\Real^2]{x^2 + y^2}{x}{y} +
     \IIntP[\Real^2]{x^2 + y^2}{x}{y} +
     1
+$$
+
+$${
+    \Int[-\infty][\infty]{e^{-x^2}}{x} +
+    \IntP{y^3 + 2y^2 - y + 1}{y} \\
+}$$
+
+Dot and cross integral and their auto-vectorized versions:
+$$
+    \IntD[\vec{A}][\vec{B}]{E}{\ell} = \IntDV[\vec{C}][\vec{D}]{E}{\ell},
+    \IntC[\pdiff V]{\vec{F} + \vec{G}}{\vec{s}} = \IntCV[\pdiff V]{x}{u}.
+$$
+
+
+#### Three-dimensional integrals
+$$
+    \IIIntPV[(0, 0, 0)][(1, 1, 1)]{r^2 + 2 r}{\vec{r}}
 $$
 
 #### Number sets
