@@ -21,28 +21,28 @@ Of course, if your template class is defined differently, no one is stopping you
 
 ### Lists
 We have included the `enumitem` package and can write lists nicely.
-There are many reasons to use \LaTeX.
+There are many reasons to use LaTeX.
 
--   Perhaps the best thing about \LaTeX\ is its ability to typeset mathematics.
+-   Perhaps the best thing about LaTeX is its ability to typeset mathematics.
 -   Or maybe that we can split, compose and template documents, as opposed to storing them
     in a single mysterious file.
 -   And store files in `git` in reasonable directories.
 
-However sometimes \LaTeX\ is way too verbose, too powerful and allows us to do too much.
+However sometimes LaTeX is way too verbose, too powerful and allows us to do too much.
 This is where DeGeŠ comes in:
 
-1.  Instead of \LaTeX, we write stuff in `Markdown`.
+1.  Instead of LaTeX, we write stuff in `Markdown`.
     It is not that powerful and does not allow that much, but it is often a good thing.
-    With `pandoc` it can be converted to \LaTeX\ easily. Or to `HTML` as well:
+    With `pandoc` it can be converted to LaTeX easily. Or to `HTML` as well:
     sometimes having a structured, clickable document is much better than
     a perhaps prettier but cumbersome PDF file.
 1.  We avoid a ton of boilerplate. Just compare including a picture, see [-@sec:pictures].
 1.  We can store files in a structured way, especially if the documents have
     a firmly set structure that repeats in various issues.
 1.  We provide a huge number of custom macros (see section [-@sec:011103-problem]) that are much easier to memorize (and also type).
-    They work both with \LaTeX\ and HTML, which is great.
+    They work both with LaTeX and HTML, which is great.
     And if we wish to use them outside DeGeŠ, no problem.
-1.  We can avoid most typographic corrections in the text: no more manual `\,` or `\!`.
+1.  We can avoid most typographic corrections in the text: no more manual `\\,` or `\!`.
     Seriously, if you ever find yourself using those in a document, something is very wrong.
 
 ### Unicode
