@@ -1,16 +1,6 @@
 ### Simple mathematics
-This is fairly simple inline mathematics. Newton would probably be proud about this rendition of
-$$
-    F = ma,
-$$
-just like Einstein for this nice and provocative
-$$
-    E = mc^2
-$$
-or Schrödinger would praise us for
-$$
-    H\Psi = E\Psi.
-$$
+This is fairly simple inline mathematics. Newton would probably be proud about this rendition of $F = ma$,
+just like Einstein for this nice and provocative $E = mc^2$, or Schrödinger would praise us for $H\Psi = E\Psi$.
 
 It is easy to cross-reference [@eq:testing-1] too,
 $$
