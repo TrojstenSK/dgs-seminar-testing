@@ -8,7 +8,7 @@ $$
 $$ {#eq:testing-1}
 or if we wish to refer to it with a different word, it can be math block [-@eq:testing-1] too.
 
-and we even have a special `$${...}$$` tag for aligned equations,
+and we even have a special `$${ ... }$$` tag for aligned equations,
 $${
     a &= b, \\
     c &= d.

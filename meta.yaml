@@ -2,11 +2,11 @@ id:                 "testing"
 short:              "testing"
 language:           en
 full:
-    nominative:     "Testovací seminár pre DeGeŠ"
-    genitive:       "Testovacieho seminára pre DeGeŠ"
-    locative:       "Testovacom seminári pre DeGeŠ"
+    nominative:     "DeGeŠ testing seminar"
+    genitive:       "DeGeŠ testing seminar"
+    locative:       "DeGeŠ testing seminar"
 head:
-    name:           "Testovač"
+    name:           "Master Tester"
     email:          "test@test.test"
     phone:          "+421 918 918 918"
 founded:            2023
@@ -17,11 +17,11 @@ email:              "none@none.no"
 organisation:
     department:
         short:      "DeGeŠ"
-        full:       "Oddelenie testovania"
+        full:       "department of testing"
     faculty:
-        short:      "FMFI UK"
-        full:       "Fakulta matematiky, fyziky a informatiky"
-    address:        "Mlynská dolina, 842 48 Bratislava"
+        short:      "FoT"
+        full:       "faculty of typography"
+    address:        "Owners' club"
 
 categories:         [[], [], [], [], [], []]
 

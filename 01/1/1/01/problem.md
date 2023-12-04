@@ -39,7 +39,7 @@ This is where DeGeŠ comes in:
 1.  We avoid a ton of boilerplate. Just compare including a picture, see [-@sec:pictures].
 1.  We can store files in a structured way, especially if the documents have
     a firmly set structure that repeats in various issues.
-1.  We provide a huge number of custom macros (see section [-@sec:011103-problem]) that are much easier to memorize (and also type).
+1.  We provide a huge number of custom macros (see [@sec:011103-problem]) that are much easier to memorize (and also type).
     They work both with LaTeX and HTML, which is great.
     And if we wish to use them outside DeGeŠ, no problem.
 1.  We can avoid most typographic corrections in the text: no more manual `\\,` or `\!`.
