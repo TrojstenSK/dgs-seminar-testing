@@ -51,3 +51,21 @@ Hertzsprung--Russell
 Mečiar --Fico
 Dzurinda-- Matovič
 Tvoja -- Mama
+
+![Testing figure](test.svg)
+
+| abc | def |
+|:---:|----:|
+| penis | "abc" |
+
+Table: Penis penis penis {#tbl:penis}
+
+$$
+    a + b = c
+$$ {#eq:penis}
+
+This is [@eq:penis] and refers to [@tbl:penis].
+
+$\SIlist{1;2;3;4}{\newton}$ + $\SIrange{5}{10}{\metre}$
+
+Pay attention to decimal dots in $\SI{1.23e4}{\ampere}$.
